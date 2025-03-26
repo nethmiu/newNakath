@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/newNakath/static/css/main.c3f7f625.css",
+    "main.js": "/newNakath/static/js/main.9a366ab5.js",
+    "static/js/453.40185f44.chunk.js": "/newNakath/static/js/453.40185f44.chunk.js",
+    "static/media/sun.png": "/newNakath/static/media/sun.fc1fe6a1fce578047a5c.png",
+    "static/media/ganu.png": "/newNakath/static/media/ganu.969c6f8d5b0371d483c4.png",
+    "static/media/rak.jpg": "/newNakath/static/media/rak.cf8a40882874a750870f.jpg",
+    "static/media/lipa.webp": "/newNakath/static/media/lipa.c6a69cbbdb49793f0955.webp",
+    "static/media/hisa.jpg": "/newNakath/static/media/hisa.7728a97832bb4943c676.jpg",
+    "static/media/pu.webp": "/newNakath/static/media/pu.ba2de33562a1932dac91.webp",
+    "static/media/new.jpg": "/newNakath/static/media/new.e54699511e591d121d45.jpg",
+    "index.html": "/newNakath/index.html",
+    "main.c3f7f625.css.map": "/newNakath/static/css/main.c3f7f625.css.map",
+    "main.9a366ab5.js.map": "/newNakath/static/js/main.9a366ab5.js.map",
+    "453.40185f44.chunk.js.map": "/newNakath/static/js/453.40185f44.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3f7f625.css",
+    "static/js/main.9a366ab5.js"
+  ]
+}
