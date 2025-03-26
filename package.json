@@ -16,6 +16,8 @@
     "web-vitals": "^2.1.4"
   },
   "homepage": "https://nethmiu.github.io/newNakath",
+
+  
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
