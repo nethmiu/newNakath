@@ -1,0 +1,259 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* src/App.css */
+@font-face {
+  font-family: 'Iskoola Pota';
+  src: local('Iskoola Pota'), 
+       url('https://fonts.googleapis.com/css2?family=Noto+Sans+Sinhala:wght@400;700&display=swap') format('truetype');
+}
+
+body {
+  font-family: 'Noto Sans Sinhala', 'Arial Unicode MS', sans-serif;
+  background-color: #f8f9fa;
+}
+
+.countdown-timer {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 15px;
+  border: 1px solid #dee2e6;
+}
+
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.display-4 {
+  font-weight: bold;
+  color: #0e0600;
+}
+
+/* src/App.css */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Sinhala:wght@400;700&family=Poppins:wght@300;400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f5f0;
+  color: #0c0000;
+}
+
+.sinhala-font {
+  font-family: 'Noto Sans Sinhala', sans-serif;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+/* Elegant card styles */
+.nakath-card {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(135deg, #ffffff 0%, #f9f9f9 100%);
+}
+
+.nakath-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+  height: 220px;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.card-title {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  color: #0c0501;
+  font-weight: 600;
+}
+
+.card-text {
+  color: #0a0000;
+  font-size: 1.95rem;
+}
+
+/* Countdown timer styles */
+.countdown-timer {
+  background: rgba(240, 188, 19, 0.952);
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 15px;
+  
+  border: 1px solid rgba(15, 1, 1, 0.3);
+}
+
+.countdown-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 8px;
+}
+
+.countdown-value {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #d83f11;
+}
+
+.countdown-label {
+  font-size: 5.2rem;
+  color: #010808;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Header styles */
+.header-title {
+  font-size: 2.2rem;
+  font-weight: 600;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.header-subtitle {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .header-title {
+    font-size: 1.8rem;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+  }
+}
+
+
+/* Card styling */
+.nakath-card {
+  transition: all 0.3s ease;
+  overflow: hidden;
+  background: linear-gradient(135deg, #ffffff 0%, #f9f9f9 100%);
+}
+
+.nakath-card:hover {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Countdown styling */
+.countdown-container {
+  transition: all 0.3s ease;
+}
+
+/* Ensure equal height for all cards */
+.col-md-6.col-lg-4.mb-4.d-flex {
+  min-height: 100%;
+}
+
+/* Bootstrap icon for clock */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+/* Alert banner styling */
+.alert-warning .sinhala-font {
+  font-size: 2.1rem;
+  color: black;
+  font-weight: 600;
+}
+
+/* Highlight upcoming cards */
+.nakath-card.upcoming {
+  border-left: 100px solid #f52c2c;
+}
+
+/* Ensure Sinhala text displays properly */
+.sinhala-font {
+  font-family: 'Noto Sans Sinhala', sans-serif;
+}
+
+
+/* Sinhala font face */
+@font-face {
+  font-family: 'Abhaya Libre';
+  src: url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@600;700&display=swap');
+}
+
+.new-year-message-modal .modal-content {
+  border-radius: 15px;
+  overflow: hidden;
+  border: none;
+}
+
+.sinhala-font {
+  font-family: 'Abhaya Libre', 'Noto Sans Sinhala', sans-serif;
+  
+}
+
+/* Animation for title */
+@keyframes subtlePulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.02); }
+  100% { transform: scale(1); }
+}
+
+.new-year-message-modal .modal-header {
+  animation: subtlePulse 3s infinite;
+}
+
+
+
+
+
+
+
+
+
+
